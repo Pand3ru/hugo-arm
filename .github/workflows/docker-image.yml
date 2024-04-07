@@ -30,5 +30,5 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: panderu/site:latest
+        tags: panderu/hugo_extended_arm:hugo_extended_0.124.1
         platforms: linux/arm64/v8
